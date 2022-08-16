@@ -15,7 +15,6 @@ return result;
 
 }
 
-let playerSelection = (prompt("enter r p s"));
 
 function playRound(){
 let playerSelectionLowercase = playerSelection.toLowerCase();
@@ -38,14 +37,5 @@ if(playerSelectionLowercase == getComputerChoiceLowercase){
 console.log("computer rolled " + getComputerChoiceLowercase);
 }
 
-function game(){
-    for(let i=0; i<5;i++)
-    {
-        playerSelection = (prompt("enter r p s"));
-            playRound();
-    }
-}
-
-game();
 
 
