@@ -1,4 +1,60 @@
+body{
+    
+    flex-direction: column;
+    min-height: 100vh;
+    flex: 1;
+    background-color: rgb(152, 202, 185);
+
+}
+
+.score{
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    border: 2em;
+    margin: 2em;
+    
+    background-color: rgb(47, 149, 189);
+    min-height: 10vh;
+}
 .menu{
     display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
     background-color: rgb(152, 202, 185);
 }
+
+input{
+    border: 10px;
+    margin: 10px;
+    min-height: 90px;
+    width: 90px;
+}
+
+.enlarge{
+    min-height: 120px;
+    width: 120px;
+}
+
+.scores{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+#scorelabel{
+
+
+    padding: 1em;
+}
+
+#opponentlabel{
+
+
+    padding: 1em;
+}
+
+
